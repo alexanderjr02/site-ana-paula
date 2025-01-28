@@ -39,7 +39,7 @@ function alternarCurso() {
   indiceCurso = (indiceCurso + 1) % totalCursos;
 }
 
-// Definir o intervalo para alternar automaticamente a cada 5 segundos
+// Definir o intervalo para alternar automaticamente a cada 8 segundos
 setInterval(alternarCurso, 8000);
 
 // Chamar a função para inicializar com o primeiro curso
