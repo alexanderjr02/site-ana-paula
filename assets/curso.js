@@ -1,12 +1,12 @@
 // Dados dos cursos: imagens de fundo, nome do curso e subtítulo
 const cursos = [
   {
-    imagem: '/assets/img/logocurso.png', // Verifique se o caminho da imagem está correto
+    imagem: 'assets/img/logocurso.png', // Verifique se o caminho da imagem está correto
     nome: 'CURSO PROFISSIONALIZANTE',
     subtitulo: 'DESIGN DE <br>SOBRANCELHAS', // Adicionando a quebra de linha aqui
   },
   {
-    imagem: '/assets/img/logocurso2.png',
+    imagem: 'assets/img/logocurso2.png',
     nome: 'CURSO PROFISSIONALIZANTE',
     subtitulo: 'LASH <br>DESIGN', // Adicionando a quebra de linha aqui
   },

@@ -3,8 +3,8 @@ const section = document.querySelector('.home-do-site');
 
 // Array com os caminhos das imagens (loja1, loja2, etc.)
 const imagens = [
-    '/assets/img/loja2.png', '/assets/img/loja1.png', 
-    '/assets/img/loja3.png', '/assets/img/loja4.png'
+    'assets/img/loja2.png', 'assets/img/loja1.png', 
+    'assets/img/loja3.png', 'assets/img/loja4.png'
 ];
 
 // Tempo entre as trocas (em milissegundos)
