@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #DC8B76;
+    height: 100vh;
+}
+
+/* Estilização do cabeçalho*/
+header{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 70px;
+    padding: 40px;
+}
+header div img{
+    max-height: 50px;
+    margin-right: 80px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #767676;
+    font-size: 15px;
+    padding: 10px 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.4s ease;
+    border-radius: 25px;
+}
+
+header nav ul li a:hover{
+    background-color: #F2F2F2;
+    border-radius: 25px;
+}
+
+.buton-desktop {
+    color: #FFFFFF;
+    background-color: #DC8B76;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-left: 80px;
+    transition: background-color 0.3s ease;
+}
+header button:hover{
+    background-color: #B95C4A;
+}
+
+.btn-mobile{
+    display: none;
+}
+
+#menu-mobile{
+    display: none;
+}
+
+.nav-item-list{
+    list-style-type: none;
+}
+
+.nav-item a{
+    color: #767676; 
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+#buton-mobile{
+    color: #FFFFFF;
+    background-color: #DC8B76;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    display: none;
+}
+/* Fim da Estilização do cabeçalho*/
+
+/* Estilização da home*/
+.home-do-site{
+    margin-top: 30px;
+    height: 590px;
+    width: 100%;
+    background-image: linear-gradient(#633F3699, #633F3699);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top 50px, right top 50px;
+    background-size: 100% 100%, 50% auto, 50% auto;
+    background-blend-mode: multiply;
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    text-align: center; /* Centraliza o texto */
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1{
+    color: #FFFFFF;
+    padding-top: 120px;
+    font-size: 37px;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 800;
+    width: 100%;
+}
+.home-do-site p, li{
+    color: #FFFFFF;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+}
+.texto-img li{
+    list-style-type: none;
+}
+.texto-inicio{
+    color: #FFFFFF;
+    padding-top: 20px;
+    font-size: 25px
+}
+.texto-img{
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+
+.botoes{
+    display: flex;
+    padding-top: 80px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    gap: 100px; 
+    text-align: center;
+    justify-content: center;
+}
+.butão1{
+    color: #FFFFFF;
+    background-color: #DC8B76;
+    cursor: pointer;
+    border: none;
+    width: 370px;
+    height: 66px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+.butão1:hover{
+    background-color: #C8644F;
+}
+.butão2{
+    color: #535353;
+    background-color: #F9E8E4;
+    cursor: pointer;
+    border: none;
+    width: 370px;
+    height: 66px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+.butão2:hover{
+    background-color: #E4D0C3 ;
+}
+/* Fim da Estilização da home*/
+
+/*  Estilização dos cards*/
+.cards {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px 5px;
+    padding: 20px; /* Espaçamento interno ao redor do contêiner */
+    justify-items: center;
+    width: 100%;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+}
+
+.estetica {
+    width: 100%;
+    height: 500px;
+    background-color: #f9f9f9; /* Fundo claro para destaque */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    text-align: left;
+    padding: 10px; /* Espaçamento interno nos cards */
+}
+
+.estetica img {
+    width: 100%; /* As imagens ocupam toda a largura do card */
+    height: 63%; /* Mantém a proporção das imagens */
+}
+
+
+.estetica h3 {
+    border-top: 1px solid #000000;
+    margin: 20px 0; /* Espaçamento ao redor do título */
+    font-size: 20px;
+    color: #6F6F6F; /* Cor do texto */
+    font-weight: 500;
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.estetica button {
+    font-family: 'Inter', sans-serif;
+    width: 140px;
+    height: 39px;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 45px; /* Espaçamento acima do botão */
+    padding: 8px 16px; /* Tamanho do botão */
+    background-color: #FDC8BA; /* Cor de fundo do botão */
+    color: #552B20; /* Cor do texto do botão */
+    border: none; /* Remove bordas padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Indica que o elemento é clicável */
+    transition: background-color 0.3s ease;
+}
+.estetica button:hover {
+    background-color:#F0857F;
+    /*#F1A8A0*/
+}
+
+/*  Fim Estilização dos cards*/
+
+/*  Estilização da Localização*/
+
+.localização{
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.loc{
+    font-family: 'Inter', sans-serif;
+}
+
+.loc h2{
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.loc p{
+    color: #FFFFFF;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+/* Fim Estilização da Localização*/
+
+/*Estilização CURSOS*/
+.titulo-cursos {
+    color: #DC8B76;
+    background-color: #FFFFFF;
+    height: 90px;
+    width: 100%;
+    display: flex; /* Ativa o modelo de flexbox */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+.titulo-cursos h2 {
+    margin-left: 70px; /* Mantém o deslocamento à esquerda */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+#titulo-curso{
+    margin-left: 70px; /* Mantém o deslocamento à esquerda */
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.cursos-corpo {
+    height: 670px;
+    width: 100%;
+    background-image: linear-gradient(72deg, rgba(220, 139, 118, 0.72), rgba(220, 139, 118, 0.5)); /* Mantém o gradiente inicial */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+.cursos-corpo h2,h3, p{
+    font-family: 'Italiana', serif;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.cursos-corpo h2{
+    margin-top: 50px;
+    font-size: 50px;
+}
+#nome-curso{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.cursos-corpo h2{
+    font-size: 50px;
+    margin-top: 70px;
+}
+.cursos-corpo h3{
+    font-size: 70px;
+    margin-top: 70px;
+}
+#subtitulo-curso{
+    font-size: 100px;
+    margin-top: 70px;
+}
+
+.cursos-corpo p{
+    padding:  30px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.cursos-corpo button{
+    margin-top: 30px;
+    color: #DC8B76;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    height: 80px;
+    width: 500px;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    border-radius: 56.5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.cursos-corpo button:hover{
+    background-color: #FDC8BA;
+    color: #FFFFFF;
+}
+/*Fim da Estilização CURSOS*/
+
+.enfeite{
+    height: 70px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #DC8B76;
+}
+
+/*Estilização Footer*/
+
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.redes-sociais{
+    margin-top: 47px;
+    align-items: center;
+    text-align: center;
+}
+.redes-sociais h4{
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    font-size: 20px;
+}
+
+.redes-sociais a{
+    text-decoration: none;
+}
+
+.redes-sociais i{
+    text-decoration: none;
+    color: #DC8B76;
+    margin-top: 55px;
+    margin-left: 40px;
+    font-size: 40px;
+    transition: background-color 0.6s ease;
+}
+.redes-sociais i:hover{
+    color:  #9C5A4D;
+}
+.contato{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.contato h4{
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    align-items: center;
+    font-size: 20px;
+}
+
+.contato p{
+    margin-top: 55px;
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.endereço{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.endereço h4{
+    font-size: 20px;
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    align-items: center;
+}
+
+.endereço p{
+    margin-top: 55px;
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
