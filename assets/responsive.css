@@ -417,7 +417,7 @@
 
 
 /* Para telas pequenas (smartphones) */
-@media (max-width: 371px){  
+@media (max-width: 385px){  
     header div img{
         max-height: 40px;
         margin-right: 50px;
