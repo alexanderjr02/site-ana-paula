@@ -269,20 +269,18 @@ h1{
     width: 100%;
 }
 
-.loc{
-    font-family: 'Inter', sans-serif;
-}
-
 .loc h2{
     margin-bottom: 20px;
     color: #FFFFFF;
     font-weight: 600;
+    font-family: 'Inter', sans-serif;
 }
 
 .loc p{
     color: #FFFFFF;
     font-weight: 800;
     margin-top: 20px;
+    font-family: 'Inter', sans-serif;
 }
 
 /* Fim Estilização da Localização*/
