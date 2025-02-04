@@ -48,7 +48,10 @@ header nav ul li a:hover{
     background-color: #F2F2F2;
     border-radius: 25px;
 }
-
+.buton-desktop a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .buton-desktop {
     color: #FFFFFF;
     background-color: #DC8B76;
@@ -104,7 +107,7 @@ header button:hover{
 /* Estilização da home*/
 .home-do-site{
     margin-top: 30px;
-    height: 590px;
+    height: 540px;
     width: 100%;
     background-image: linear-gradient(#633F3699, #633F3699);
     background-repeat: no-repeat, no-repeat;
@@ -131,7 +134,7 @@ h1{
     font-family: 'Abhaya Libre', serif;
     font-weight: 600;
 }
-.texto-img li{
+.texto-img li a{
     list-style-type: none;
 }
 .texto-inicio{
@@ -147,12 +150,17 @@ h1{
 
 .botoes{
     display: flex;
-    padding-top: 80px;
+    padding-top: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     gap: 100px; 
     text-align: center;
     justify-content: center;
+}
+
+.butão1 a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .butão1{
     color: #FFFFFF;
@@ -166,6 +174,11 @@ h1{
 }
 .butão1:hover{
     background-color: #C8644F;
+}
+
+.butão2 a {
+    text-decoration: none;
+    color: #535353;
 }
 .butão2{
     color: #535353;
@@ -197,7 +210,7 @@ h1{
 
 .estetica {
     width: 100%;
-    height: 500px;
+    height: 450px;
     background-color: #f9f9f9; /* Fundo claro para destaque */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
     text-align: left;
@@ -220,14 +233,13 @@ h1{
     font-family: 'Inter', sans-serif;
 }
 
-
 .estetica button {
     font-family: 'Inter', sans-serif;
     width: 140px;
     height: 39px;
     font-size: 19px;
     font-weight: 500;
-    margin-top: 45px; /* Espaçamento acima do botão */
+    margin-top: 30px; /* Espaçamento acima do botão */
     padding: 8px 16px; /* Tamanho do botão */
     background-color: #FDC8BA; /* Cor de fundo do botão */
     color: #552B20; /* Cor do texto do botão */
@@ -235,6 +247,12 @@ h1{
     border-radius: 4px; /* Bordas arredondadas */
     cursor: pointer; /* Indica que o elemento é clicável */
     transition: background-color 0.3s ease;
+}
+.estetica button a{
+    text-decoration: none;
+    color: #552B20;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 .estetica button:hover {
     background-color:#F0857F;
@@ -352,6 +370,12 @@ h1{
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     transition: background-color 0.3s ease;
+}
+.cursos-corpo button a{
+    text-decoration: none;
+    color: #DC8B76;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 .cursos-corpo button:hover{
     background-color: #FDC8BA;
