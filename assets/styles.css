@@ -210,7 +210,7 @@ h1{
 
 .estetica {
     width: 100%;
-    height: 450px;
+    height: 500px;
     background-color: #f9f9f9; /* Fundo claro para destaque */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve */
     text-align: left;
@@ -219,13 +219,13 @@ h1{
 
 .estetica img {
     width: 100%; /* As imagens ocupam toda a largura do card */
-    height: 63%; /* Mantém a proporção das imagens */
+    height: 70%; /* Mantém a proporção das imagens */
 }
 
 
 .estetica h3 {
     border-top: 1px solid #000000;
-    margin: 20px 0; /* Espaçamento ao redor do título */
+    margin: 10px 0; /* Espaçamento ao redor do título */
     font-size: 20px;
     color: #6F6F6F; /* Cor do texto */
     font-weight: 500;
