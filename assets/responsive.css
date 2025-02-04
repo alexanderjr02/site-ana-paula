@@ -1,4 +1,4 @@
-/* Para telas grandes (desktops) */
+
 @media  (max-width: 1170px) {
     .nav-list-desktop,.buton-desktop{
         display: none;
@@ -272,141 +272,7 @@
 }
 
 /* Para telas pequenas (smartphones) */
-@media ( max-width: 553px) {
-    .logo{
-        font-size: 5px;
-    }
-    #btn-mobile{
-        font-size: 20px;
-    }
-    .buton-mobile{
-        color: #FFFFFF;
-        background-color: #DC8B76;
-        width: 40%;
-        height: 40px;
-        cursor: pointer;
-        border:none;
-        margin-bottom: 2rem;
-    }
-    .home-do-site{
-        height: 400px;
-    }
-    .h1-home{
-        margin-top: 0;
-        padding-top: 30px;
-    }
-    .texto-inicio{
-        font-size: 15px;
-        margin-top: 20px;
-    }
-    .texto-img{
-        font-size: 15px;
-        margin-top: 25px;
-    }
-    .botoes {
-        display: flex;
-        padding-top: 30px;
-        gap: 30px; 
-    }
-    .butão1, .butão2 {
-        width: 150px;
-        font-size: 13px;
-        height: 50px;
-        
-    }
-    .cards {
-        margin-top: 10px;
-        gap: 10px 2px;
-        grid-template-columns: repeat(2, 1fr)
-    }
-    .estetica {
-        height: 330px;
-    }
-    .estetica img {
-        height: 65%;
-    }
-    .estetica h3{
-        margin-top: 5px;
-        font-size: 15px;
-    }
-    .estetica button{
-        margin-top: 8px;
-        height: 30px;
-        font-size: 12px;
-        width: 100px;
-    }
-    .localização{
-        padding-top: 20px;
-        text-align: center;
-        align-items: center;
-        padding-left: 55px;
-        height: 550px;
-    }
-    .loc{
-        width: 400px;
-        height: 400px;
-        
-    }
-    .localização p, .loc p {
-        font-size: 16px;
-    }
-
-    .cursos-corpo{
-        height: 450px;
-    }
-    .titulo-cursos{
-        height: 80px;
-    }
-    #nome-curso{
-        font-size: 30px;
-    }
-    #subtitulo-curso{
-        font-size: 60px;
-        margin-top: 50px;
-    }
-    .cursos-corpo button{
-        width: 300px;
-        margin-top: 20px;
-        font-size: 25px;
-        height: 60px;
-    }
-
-    .cursos-corpo p{
-        font-size: 15px;
-        padding-top: 10px;
-    }
-    .enfeite{
-        height: 40px;
-    }
-    footer {
-        font-size: 14px;
-    }
-    .redes-sociais{
-        margin-top: 20px;
-    }
-    .redes-sociais i{
-        margin-top: 20px;
-        font-size: 25px;
-    }
-    .contato{
-        margin-top: 30px;
-    }
-
-    .contato p{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-    .endereço{
-        margin-top: 30px;
-    }
-    .endereço p{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-}
-
-/* Para telas pequenas (smartphones) */
-@media (max-width: 491px) {
+@media (min-width: 300px) and (max-width: 599px){  
     header div img{
         max-height: 40px;
         margin-right: 50px;
@@ -442,12 +308,13 @@
     }
     .botoes {
         display: flex;
-        padding-top: 30px;
+        padding-top: 50px;
+        gap: 50px;
     }
     .butão1, .butão2 {
         width: 150px;
         font-size: 10px;
-        height: 40px;
+        height: 30px;
         
     }
     .cards {
@@ -472,159 +339,23 @@
         font-size: 12px;
         width: 100px;
     }
-    .localização{
-        padding-top: 0px;
-        text-align: center;
-        align-items: center;
-        padding-left: 90px;
+    .localização {
+        padding-top: 20px;
+        padding-left: 0; /* Removido o padding-left que estava deslocando */
         height: 450px;
         width: 100%;
-    }
-    .loc{
-        width: 300px;
-        height: 300px;
-        
-    }
-    .localização p, .loc p {
-        font-size: 16px;
-    }
-
-    .cursos-corpo{
-        height: 350px;
-    }
-    .titulo-cursos{
-        height: 60px;
-    }
-    #titulo-curso{
-        font-size: 20px;
-    }
-    #nome-curso{
-        font-size: 25px;
-    }
-    #subtitulo-curso{
-        font-size: 40px;
-        margin-top: 30px;
-    }
-    .cursos-corpo p{
-        font-size: 10px;
-        padding-top: 10px;
-    }
-    .cursos-corpo button{
-        width: 200px;
-        margin-top: 20px;
-        font-size: 20px;
-        height: 50px;
-    }
-
-    .enfeite{
-        height: 40px;
-    }
-    footer {
-        font-size: 14px;
-    }
-    .redes-sociais{
-        margin-top: 20px;
-    }
-    .redes-sociais i{
-        margin-top: 20px;
-        font-size: 25px;
-    }
-    .contato{
-        margin-top: 30px;
-    }
-
-    .contato p{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-    .endereço{
-        margin-top: 30px;
-    }
-    .endereço p{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 392px) {
-    header div img{
-        max-height: 40px;
-        margin-right: 50px;
-    }
-    .buton-mobile{
-        color: #FFFFFF;
-        background-color: #DC8B76;
-        width: 40%;
-        height: 40px;
-        cursor: pointer;
-        border:none;
-        margin-bottom: 2rem;
-    }
-
-    #btn-mobile{
-        font-size: 20px;
-    }
-    .home-do-site{
-        height: 320px;
-    }
-    .h1-home{
-        margin-top: 0;
-        padding-top: 20px;
-        font-size: 30px;
-    }
-    .texto-inicio{
-        font-size: 12px;
-        margin-top: 10px;
-    }
-    .texto-img{
-        font-size: 12px;
-        margin-top: 15px;
-    }
-    .botoes {
         display: flex;
-        padding-top: 10px;
-    }
-    .butão1, .butão2 {
-        width: 150px;
-        font-size: 10px;
-        height: 40px;
-        
-    }
-    .cards {
-        margin-top: 5px;
-        gap: 5px 2px;
-        grid-template-columns: repeat(2, 1fr)
-    }
-    .estetica {
-        height: 270px;
-    }
-    .estetica img {
-        height: 60%;
-    }
-    .estetica h3{
-        margin-top: 2px;
-        font-size: 12px;
-    }
-    .estetica button{
-        margin-top: 2px;
-        height: 30px;
-        font-size: 12px;
-        width: 100px;
-    }
-    .localização{
-        padding-top: 0px;
+        justify-content: center; /* Centraliza horizontalmente */
         text-align: center;
-        align-items: center;
-        padding-left: 35px;
-        height: 450px;
     }
+    
     .loc{
         width: 300px;
         height: 300px;
         
     }
     .localização p, .loc p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .cursos-corpo{
@@ -635,7 +366,6 @@
     }
     #titulo-curso{
         font-size: 20px;
-        
     }
     #nome-curso{
         font-size: 25px;
@@ -684,3 +414,4 @@
         font-size: 15px;
     }
 }
+

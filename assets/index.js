@@ -8,7 +8,7 @@ const imagens = [
 ];
 
 // Tempo entre as trocas (em milissegundos)
-const intervaloTroca = 7000; // 3 segundos
+const intervaloTroca = 9000; // 3 segundos
 
 // Variável para rastrear o índice atual
 let indiceAtual = 0;
